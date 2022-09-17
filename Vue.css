@@ -1,0 +1,150 @@
+/*!
+	@theme Vue
+	@override-placeholders html, xml, css, sourcecode.js, php, regex
+	@version 0.1.0
+	@author enderlinp
+*/
+:document-base {
+  color: #525252;
+  background-color: #f8f8f8;
+  insertion-point-color: #e96900;
+  selection-background-color: default;
+  current-line-background-color: default;
+}
+
+sourcecode, source, tag, css, js, php, regex {
+  spell-check: disabled;
+}
+
+attribute-name {
+  color: #2973b7;
+}
+
+attribute-value {
+  color: #42b983;
+}
+attribute-value punctuation.definition.begin,
+attribute-value punctuation.definition.end {
+  color: #42b983;
+}
+
+class.definition.name {
+  color: white;
+}
+
+comment {
+  color: #b3b3b3;
+}
+comment punctuation.definition.begin,
+comment punctuation.definition.end {
+  color: #b3b3b3;
+}
+comment keyword {
+  color: #b3b3b3;
+}
+
+constant {
+  color: #0092db;
+}
+constant.numeric, constant.language {
+  color: #ae81ff;
+}
+
+delimiter.source {
+  color: #525252;
+}
+
+entity.name {
+  color: #2973b7;
+}
+
+function.definition.name {
+  font-weight: bold;
+}
+
+keyword {
+  color: #e96900;
+}
+delimiter.source keyword.definition {
+  color: #525252;
+}
+keyword.function {
+  color: #0092db;
+}
+keyword.storage.type {
+  color: #e96900;
+}
+function.definition keyword.storage.type {
+  color: #0092db;
+}
+
+property-name {
+  color: #e96900;
+}
+
+property-value {
+  color: #525252;
+}
+property-value .other.unit {
+  color: #ae81ff;
+}
+
+string {
+  color: #42b983;
+}
+string character.escape {
+  color: #42b983;
+}
+string punctuation.definition.begin,
+string punctuation.definition.end {
+  color: #42b983;
+}
+string.quoted constant.character.escape {
+  background-color: rgba(66, 185, 131, 0.15);
+}
+
+support.variable.built-in {
+  color: #42b983;
+}
+
+tag {
+  color: #2973b7;
+}
+tag.doctype {
+  color: #b3b3b3;
+}
+
+/* HTML */
+html punctuation.definition.begin,
+html punctuation.definition.end,
+html punctuation.separator.attribute {
+  color: #2973b7;
+}
+html comment punctuation,
+html tag.doctype punctuation {
+  color: #b3b3b3;
+}
+
+/* JSON */
+json * string.quoted {
+  color: #525252;
+}
+json x-assignment string.quoted punctuation.definition.begin,
+json x-assignment string.quoted punctuation.definition.end {
+  color: #525252;
+}
+
+/* Regex */
+regex {
+  color: #42b983;
+}
+regex character-class operator {
+  color: #42b983;
+}
+regex constant.shorthand {
+  color: #42b983;
+}
+regex punctuation.definition.begin,
+regex punctuation.definition.end {
+  color: #42b983;
+}
