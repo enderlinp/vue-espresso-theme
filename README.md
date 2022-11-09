@@ -1,5 +1,5 @@
 # Vue Espresso Theme
-Vue inspired Theme for Kangacode's [Espresso](https://www.espressoapp.com).
+Vue inspired Theme for Espresso Apps [Espresso](https://www.espressoapp.com).
 
 This version supports HTML, CSS, Javascript, PHP and Regex.
 
